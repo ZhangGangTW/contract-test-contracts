@@ -1,0 +1,16 @@
+request:
+  method: GET
+  url: /users/u1
+  headers:
+    Content-Type: application/json
+response:
+  status: 200
+  body:
+    id: "u1"
+    name: "Ted"
+    detail:
+      age: 18
+      title: "Teacher"
+      address: "Hello World"
+  headers:
+    Content-Type: application/json
